@@ -1,0 +1,4 @@
+Host: https://wutils.ru:443
+Sitemap: https://wutils.ru/sitemap.xml
+User-agent: *
+Disallow:

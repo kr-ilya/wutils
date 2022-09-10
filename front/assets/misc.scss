@@ -1,0 +1,162 @@
+.v-btn__content{
+    font-size:14px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0 !important;
+}
+
+.v-application--is-ltr .v-tabs-bar.v-tabs-bar--is-mobile:not(.v-tabs-bar--show-arrows) > .v-slide-group__wrapper > .v-tabs-bar__content > .v-tab:first-child, .v-application--is-ltr .v-tabs-bar.v-tabs-bar--is-mobile:not(.v-tabs-bar--show-arrows) > .v-slide-group__wrapper > .v-tabs-bar__content > .v-tabs-slider-wrapper + .v-tab {
+        margin-left: 0px !important;
+}
+
+.theme--light.v-tabs .v-tab:not(.v-tab--active), .theme--light.v-tabs .v-tab:not(.v-tab--active) > .v-icon, .theme--light.v-tabs .v-tab--disabled {
+    color: rgb(255, 255, 255) !important;
+    opacity: .7 !important; 
+}
+
+.theme--dark.v-btn.v-btn--disabled:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined) {
+    background-color: unset !important;
+}
+
+.right{
+    float: right !important;
+}
+
+.v-btn--floating.v-btn--small .v-icon {
+    font-size: 26px !important;
+}
+
+.instColor{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%) !important;
+}
+
+.vkColor{
+    background-color: #4d76a1 !important;
+}
+
+.fbColor{
+    background-color: #3b5998 !important;
+}
+
+.telegColor{
+    background-color: #41b4e6 !important;
+}
+
+.floatButton{
+    bottom: 85px !important;
+}
+
+.v-toolbar__content, .v-toolbar__extension {
+    padding: 0 24px 0px 5px !important;
+}
+.v-list__tile__action {
+    min-width: 36px !important;
+}
+
+@media (max-width: 599px){
+.v-toolbar:not(.v-toolbar--fixed) .v-toolbar__content {
+    margin-left: 0 !important;
+}
+}
+
+.v-toolbar:not(.v-toolbar--fixed) .v-toolbar__content {
+    margin-left: 200px;
+}
+
+.v-navigation-drawer .v-list .v-list__tile--avatar {
+    height: unset;
+    padding: 10px 10px 0px !important;
+}
+
+.tertiary--text {
+    color: #495057 !important;
+    caret-color: #495057 !important;
+}
+
+.v-footer .footer-links {
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 15px;
+    line-height: 1.8;
+}
+
+.v-toolbar .v-toolbar__content .v-toolbar__title {
+    font-size: 18px;
+    letter-spacing: unset;
+    color: #495057;
+}
+
+.v-toolbar .v-toolbar__content {
+    min-height: 60px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.v-navigation-drawer .v-list .v-list-item>.v-list__tile .v-list__tile__title {
+    font-size: 14px!important;
+    font-weight: 300;
+    padding: 0;
+}
+
+.v-btn.default.v-btn--simple.active:focus i, .v-btn.default.v-btn--simple.active:hover i, .v-btn.default.v-btn--simple.active i, .v-btn.default.v-btn--simple:active:focus i, .v-btn.default.v-btn--simple:active:hover i, .v-btn.default.v-btn--simple:active i, .v-btn.default.v-btn--simple:focus i, .v-btn.default.v-btn--simple:hover i, .v-btn.default.v-btn--simple i {
+    color: #999!important;
+}
+
+.v-navigation-drawer .v-list .v-list-item {
+    margin: 5px 7px 0;
+}
+
+.v-navigation-drawer .v-list .v-list__tile--avatar {
+    height: unset;
+    padding: 5px 10px;
+}
+
+.v-navigation-drawer .v-list .v-divider {
+    border-color: hsla(0,0%,70.6%,.3);
+    margin: 10px auto 24px;
+    width: calc(100% - 30px);
+}
+
+.v-navigation-drawer .v-list .v-list-item .v-list__tile.v-list__tile--active.primary {
+background-color: #1867c0!important;
+    -webkit-box-shadow: 0 12px 20px -10px rgba(24,103,192,.28),0 4px 20px 0 rgba(0,0,0,.12),0 7px 8px -5px rgba(24,103,192,.2)!important;
+    box-shadow: 0 12px 20px -10px rgba(24,103,192,.28),0 4px 20px 0 rgba(0,0,0,.12),0 7px 8px -5px rgba(24,103,192,.2)!important;
+}
+
+.v-navigation-drawer .v-list .v-list-item .v-list__tile.v-list__tile--active {
+    -webkit-box-shadow: 0 12px 20px -10px rgba(76,175,80,.28),0 4px 20px 0 rgba(0,0,0,.12),0 7px 8px -5px rgba(76,175,80,.2)!important;
+    box-shadow: 0 12px 20px -10px rgba(76,175,80,.28),0 4px 20px 0 rgba(0,0,0,.12),0 7px 8px -5px rgba(76,175,80,.2)!important;
+}
+
+.v-navigation-drawer .v-list .v-list-item>.v-list__tile {
+    padding: 10px 15px;
+}
+
+.v-navigation-drawer>.v-list:not(.v-list--dense) .v-list__tile {
+    font-size: 14px;
+}
+
+.v-navigation-drawer .v-list .v-list__tile__avatar {
+    margin-right: 11px;
+    min-width: unset;
+}
+
+.v-card{
+  width: 100%;
+}
+.v-footer{
+  border: none !important;
+}
+.serif{
+    font-family: Sans-serif !important;
+}
+
+.theme--light.application {
+  background: #eee;
+}
+
+a {
+  text-transform: none;
+  text-decoration: none;
+}

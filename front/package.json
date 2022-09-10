@@ -1,0 +1,28 @@
+{
+  "name": "Wutils",
+  "version": "2.0.0",
+  "description": "Сервис онлайн инструментов и утилит, с помощью которого вы можете узнать ip адрес, скачать фото и видео с инстраграм, сканировать порты, punycode конвертер, узнать цвет пикселя на фото, минифицировать код и др.",
+  "author": "Ilya Kryuchkov",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production forever start server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/google-analytics": "^2.2.0",
+    "@nuxtjs/router": "^1.4.0",
+    "@nuxtjs/yandex-metrika": "^0.1.2",
+    "axios": "^0.19.0",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "nuxt": "^2.0.0",
+    "nuxt-clipboard2": "^0.2.1"
+  },
+  "devDependencies": {
+    "@mdi/font": "^3.8.95",
+    "@nuxtjs/vuetify": "^1.1.1",
+    "nodemon": "^1.18.9"
+  }
+}
